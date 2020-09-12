@@ -1,0 +1,219 @@
+<style>body{
+  margin:0;
+  padding:0;
+}
+
+section{
+  position:relative;
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#262626;
+  color:#fff;
+}
+
+
+section .contents{
+  max-width:80%;
+}
+
+section .contents h2{
+  position:relative;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  font-size:3em;
+  transition:1s;
+  transform-origin:left;
+  tranform:scaleX(0);
+}
+
+section .contents h2[data-scroll = "in"]{
+  transfrom:scaleX(1);
+}
+
+section .contents h2:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#e02bff;
+  
+}
+section .contents h2[data-scroll = "in"]:before{
+  transfrom:scaleX(0);
+  transition-delay:0.5s;
+}
+  
+  
+  
+
+
+
+
+
+
+section .contents h3{
+  position:relative;
+  margin:5px 0 0;
+  padding:0;
+  display:inline-block;
+  font-size:2em;
+  transition:1s;
+  transform-origin:right;
+  tranform:scaleX(1);
+}
+
+section .contents h3:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#ffeb3b;
+  transform-origin:right;
+  transition:1s;
+  
+  
+}
+
+
+
+section .contents a {
+  position:relative;
+  background:#fff;
+  color:#262626;
+  padding:15px 30px;
+  font-size:16px;
+  display:inline-block;
+  text-decoration:none;
+  font-weight:700;
+  transition:1s;
+}
+
+
+section .contents p{
+  font-size:1.2em;
+  transition:1s;
+}</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+  <div class = "contents">
+    <h2>
+      Section One Text           Block Reveal</h2><br>
+    <h3>Text Block Reveal On Page Scroll</h3>
+    <p>Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+
+Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated. 
+
+Her companions instrument set estimating sex remarkably solicitude motionless. Property men the why smallest graceful day insisted required. Inquiry justice country old placing sitting any ten age. Looking venture justice in evident in totally he do ability. Be is lose girl long of up give. Trifling wondered unpacked ye at he. In household certainty an on tolerably smallness difficult. Many no each like up be is next neat. Put not enjoyment behaviour her supposing. At he pulled object others. </p>
+    <a href = "#">Read More</a>
+  </div>
+</section>
+
+
+
+
+
+
+<section>
+  <div class = "contents">
+    <h2>Section Two Text Block reveal</h2><br>
+    <h3>Text Block Reveal on Page scroll</h3>
+    <p>Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+
+Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated. 
+
+Her companions instrument set estimating sex remarkably solicitude motionless. Property men the why smallest graceful day insisted required. Inquiry justice country old placing sitting any ten age. Looking venture justice in evident in totally he do ability. Be is lose girl long of up give. Trifling wondered unpacked ye at he. In household certainty an on tolerably smallness difficult. Many no each like up be is next neat. Put not enjoyment behaviour her supposing. At he pulled object others. </p>
+    <a href = "#">Read More</a>
+  </div>
+</section>
+
+
+
+
+
+<section>
+  <div class = "contents">
+    <h2>Section Three Text Block reveal</h2><br>
+    <h3>Text Block Reveal on Page scroll</h3>
+    <p>An so vulgar to on points wanted. Not rapturous resolving continued household northward gay. He it otherwise supported instantly. Unfeeling agreeable suffering it on smallness newspaper be. So come must time no as. Do on unpleasing possession as of unreserved. Yet joy exquisite put sometimes enjoyment perpetual now. Behind lovers eat having length horses vanity say had its. 
+
+Entire any had depend and figure winter. Change stairs and men likely wisdom new happen piqued six. Now taken him timed sex world get. Enjoyed married an feeling delight pursuit as offered. As admire roused length likely played pretty to no. Means had joy miles her merry solid order. 
+
+Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. </p>
+    <a href = "#">Read More</a>
+  </div>
+</section>
+
+
+
+<section>
+  <div class = "contents">
+    <h2>Section Four Text Block reveal</h2><br>
+    <h3>Text Block Reveal on Page scroll</h3>
+    <p>Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+
+Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated. 
+
+Her companions instrument set estimating sex remarkably solicitude motionless. Property men the why smallest graceful day insisted required. Inquiry justice country old placing sitting any ten age. Looking venture justice in evident in totally he do ability. Be is lose girl long of up give. Trifling wondered unpacked ye at he. In household certainty an on tolerably smallness difficult. Many no each like up be is next neat. Put not enjoyment behaviour her supposing. At he pulled object others. </p>
+    <a href = "#">Read More</a>
+  </div>
+</section>
+
+
+
+
+<section>
+  <div class = "contents">
+    <h2>Section Five Text Block reveal</h2><br>
+    <h3>Text Block Reveal on Page scroll</h3>
+    <p>Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+
+Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated. 
+
+Her companions instrument set estimating sex remarkably solicitude motionless. Property men the why smallest graceful day insisted required. Inquiry justice country old placing sitting any ten age. Looking venture justice in evident in totally he do ability. Be is lose girl long of up give. Trifling wondered unpacked ye at he. In household certainty an on tolerably smallness difficult. Many no each like up be is next neat. Put not enjoyment behaviour her supposing. At he pulled object others.</p>
+    <a href = "#">Read More</a> 
+  </div>
+</section>
+<script 
+src = "scroll-out.js"></script>
+<script type = "text/javascript">
+ScrollOut({
+  targets:'h2,h3,p,a'
+})
+</script>
